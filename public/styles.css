@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto;
+}
+header {
+  background-color: #00000063;
+  padding: 30px;
+  border-bottom: 1px solid #000000;
+}
+.links {
+  text-align: center;
+}
+.links a {
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+}
+.links a:hover {
+  color: white;
+}
+footer {
+  background-color: #bbbbbb;
+  margin-top: 100px;
+}
+footer p {
+  font-weight: 100;
+  padding: 28px;
+  text-align: center;
+}
+/* Pagina sobre*/
+.conteudo {
+  text-align: center;
+}
+.conteudo img {
+  margin: 30px 0;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.conteudo h1 {
+  font-family: Roboto;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.conteudo p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.conteudo h3 {
+  font-size: 15px;
+  line-height: 25px;
+}
+.conteudo ul {
+  font-size: 15px;
+  text-align: center;
+}
+.conteudo li {
+  margin: 10px auto;
+}
+
+.linksFooter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.linksFooter a {
+  text-decoration: none;
+  color: #000000;
+  padding: 20px;
+}
+.linksFooter a:hover {
+  color: #00000063;
+}
+
+/*CONTEUDO*/
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.card {
+  background-color: gray;
+  display: grid;
+}
+
+.imgCard img {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.cardContent,
+.cardInfo {
+  padding: 24px;
+}
+
+.cardInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.verMais {
+  background-color: #808080;
+  filter: brightness(70%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.verMais:hover {
+  background-color: #808080;
+  filter: brightness(50%);
+}
